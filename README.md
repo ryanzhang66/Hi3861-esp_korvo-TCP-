@@ -194,7 +194,7 @@ int app_main()
                 if (i == 0)
                 {
                     /*** 2. play prompt text ***/
-                    char *prompt1="欢迎使用手语之声手套";  
+                    char *prompt1="欢迎使用...";  
                     printf("%s\n", prompt1);
                     if (esp_tts_parse_chinese(tts_handle, prompt1)) {
                             int len[1]={0};
